@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Ubuntu&display=swap');
+body {
+  margin: 0;
+  background: rgb(30,22,227);
+  background: linear-gradient(270deg, rgba(30,22,227,1) 0%, rgba(80,226,13,1) 100%); 
+  font-family: 'Ubuntu', cursive;
+}
+
+.logo-container{
+  margin: 20px auto 30px;
+}
+.logo{
+  color: black;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  border: 5px solid yellow;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.reload{
+  cursor: pointer;
+}
+
+.classListContainer{
+  text-align: center;
+  width: 100%;
+  /*background-color: #efef;*/
+  height: 400px;
+}
+
+.subjectListContainer{
+  /*background-color: #efef;*/
+  height: 380px;
+  text-align: center;
+  padding: 0;
+}
+
+ol li{
+  text-align: center;
+  color: yellow;
+  margin-top: 10px;
+  margin-right: 40px;
+  background-color: black;
+  border-radius: 23px;
+  font-weight: bold;
+  height: 50px;
+  cursor: pointer;
+  line-height: 50px;
+
+}
+
+ol li:hover{
+  background-color: #04AA6D;
+  color: white;
+  font-weight: bold;
+}
+
+.excerciseListContainer{
+  height: 380px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.pdfViewer{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.pdfViewer a{
+  background-color: black;
+  color: lightgreen;
+  padding: 0 10px 0;
+  border-radius: 23px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pdfViewer a:hover{
+  color: red;
+}
+
+iframe{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  background-clip: padding-box;
+  background: url("book-btn-150.png");
+  background-position: center;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  height: 100px;
+  color: white;
+  width: 120px;
+  line-height: 150px;
+}
+
+button:hover,
+button:focus {
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px yellow;
+}
+
+button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}

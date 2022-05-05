@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BS : Books & Solutions</title>
+		<script type="text/javascript" src="app.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="">Home</a>
+			<!-- <a href="https://about.me/subhranshu">Contact</a> -->
+			<a onclick="books();" href="#books">Books</a>
+			<a id="statusNet" class="reload" style="color: yellow;" onclick="reload()">Status: Error!</a>
+		</div>
+		
+		<center class="logo-container">
+		<br><br>
+		<span class="logo">Books & Solutions</span>
+		<br><br>
+		</center>
+		<!-- Class List -->
+		<div class="classListContainer">
+		</div>
+		<!-- Subject List -->
+		<div class="subjectListContainer">
+			<ol class="subjectList">
+				
+			</ol>
+		</div>
+		<!-- Excercise List -->
+		<div class="excerciseListContainer">
+			<ol id="excerciseList">
+				
+			</ol>
+		</div>
+		<div class="pdfViewer">
+			<a onclick="reload();">EXIT/BACK</a>
+		</div>
+	</body>
+</html>

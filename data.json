@@ -1,0 +1,44 @@
+[
+  {
+    "class": "10",
+    "physic": {
+      "1": {
+        "excercise": "1P",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    },
+    "chemistry": {
+      "1": {
+        "excercise": "1C",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    },
+    "math": {
+      "1": {
+        "excercise": "1M",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    }
+  },
+  {
+    "class": "9",
+    "physic": {
+      "1": {
+        "excercise": "1P",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    },
+    "chemistry": {
+      "1": {
+        "excercise": "1C",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    },
+    "math": {
+      "1": {
+        "excercise": "1M",
+        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+      }
+    }
+  }
+]
