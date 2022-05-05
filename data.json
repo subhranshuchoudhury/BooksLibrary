@@ -1,44 +1,55 @@
 [
   {
-    "class": "10",
-    "physic": {
-      "1": {
-        "excercise": "1P",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
+    "class": [
+      {
+        "className": "10",
+        "subjects": [
+          {
+            "subName": "Physics",
+            "excercise": [
+              {
+                "exName": "1A",
+                "pdf": "sample1.pdf"
+              },
+              {
+                "exName": "2A",
+                "pdf": "https://drive.google.com/file/d/1SkF5hFoYY0Chpq-zXNOvkDbxoBh6hOug/preview"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "className": "9",
+        "subjects": [
+          {
+            "subName": "Physics",
+            "excercise": [
+              {
+                "exName": "1A",
+                "pdf": "https://drive.google.com/file/d/1SkF5hFoYY0Chpq-zXNOvkDbxoBh6hOug/preview"
+              },
+              {
+                "exName": "2A",
+                "pdf": "https://drive.google.com/file/d/1SkF5hFoYY0Chpq-zXNOvkDbxoBh6hOug/preview"
+              }
+            ]
+          },
+          {
+            "subName": "Chemistry",
+            "excercise": [
+              {
+                "exName": "1C",
+                "pdf": "https://drive.google.com/file/d/1SkF5hFoYY0Chpq-zXNOvkDbxoBh6hOug/preview"
+              },
+              {
+                "exName": "2C",
+                "pdf": "https://drive.google.com/file/d/1SkF5hFoYY0Chpq-zXNOvkDbxoBh6hOug/preview"
+              }
+            ]
+          }
+        ]
       }
-    },
-    "chemistry": {
-      "1": {
-        "excercise": "1C",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
-      }
-    },
-    "math": {
-      "1": {
-        "excercise": "1M",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
-      }
-    }
-  },
-  {
-    "class": "9",
-    "physic": {
-      "1": {
-        "excercise": "1P",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
-      }
-    },
-    "chemistry": {
-      "1": {
-        "excercise": "1C",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
-      }
-    },
-    "math": {
-      "1": {
-        "excercise": "1M",
-        "pdf": "http://www.africau.edu/images/default/sample.pdf"
-      }
-    }
+    ]
   }
 ]
