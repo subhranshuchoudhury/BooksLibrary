@@ -16,7 +16,7 @@ subjectListContainer.style.display = "none";
 excerciseListContainer.style.display = "none";
 pdfViewer.style.display = "none";
 
-fetch("https://api.jsonbin.io/b/6272009338be296761fc0d6e/7")
+fetch("https://raw.githubusercontent.com/subhranshuchoudhury/BooksLibrary/main/data.json")
 	.then(response=>{
 		apiResponse = response;
 		document.querySelector("#statusNet").innerHTML = `Status: ${response.statusText}<br> Code: ${response.status}<br>Loading...`
