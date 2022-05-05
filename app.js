@@ -23,11 +23,12 @@ fetch("https://raw.githubusercontent.com/subhranshuchoudhury/BooksLibrary/main/d
 		return response.json();
 	})
 	.then(data=>{
+		console.log(apiResponse)
 		if (apiResponse.statusText == "OK") {
 		document.querySelector("#statusNet").innerHTML = "RELOAD";
 
 	}else {
-		document.querySelector("#statusNet").innerHTML = "api key error!";
+		document.querySelector("#statusNet").innerHTML = "RELOAD (!)";
 		
 	}
 		finalData = data;
